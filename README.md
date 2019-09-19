@@ -40,5 +40,20 @@ The following table shows the results on the In-Shop Clothes Retrieval dataset. 
 | ABIR w/o SE-block        | 88.1 | 96.9 | 97.6   | 98.1   | 98.3      | 98.5  | 
 | ABIR with SE-block        | **89.0** | **97.1** | **98.0**   | **98.4**   | **98.6**      | **98.8**  | 
 
-The following table shows the results on the In-Shop Clothes Retrieval dataset. Best results are marked in bold.
+The following table shows the results on the CUB-200-2011 dataset. Best results are marked in bold.
+
+|R@           | 1          | 10         | 20        | 30        | 40        | 50        |
+|-------------|------------|------------|-----------|-----------|-----------|-----------|
+| [margin](https://arxiv.org/pdf/1706.07567.pdf)  | 63.9   | 75.3     | 84.4   | 90.6   | 94.8    | -   |
+| [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356)         | 60.7     | 72.4     | 81.9   | 89.2   | 93.7    | 96.8   |
+| [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 57.1     | 68.8     | 78.7   | 86.5   | 92.5    | 95.5      |
+| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf) | 65.5     | 75.8     | 83.9   | 90.2   | 94.2      | **97.1**      |
+| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | 60.6 | 71.5 | 79.8   | 87.4   | -      | -  |
+|-------------|------------|------------|-----------|-----------|-----------|-----------|
+| Our Baseline        | 73.1 | 81.9 | 87.6   | 91.4   | 93.8   | 96.2  |
+| ABIR w/o SE-block        | 77.5 | 84.1 | 88.7   | 91.7   | 94.2      | 96.3  |
+| ABIR with SE-block         | **78.1** | **84.6** | **88.7**   | **91.8**   | **94.4**      | 96.6  |
+
+The following table shows the results on the Stanford Online Products dataset. Best results are marked in bold.
+The following table shows the results on the Cars-196 dataset. Best results are marked in bold.
 

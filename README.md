@@ -55,5 +55,31 @@ The following table shows the results on the CUB-200-2011 dataset. Best results 
 | ABIR with SE-block         | **78.1** | **84.6** | **88.7**   | **91.8**   | **94.4**      | 96.6  |
 
 The following table shows the results on the Stanford Online Products dataset. Best results are marked in bold.
+
+|R@           | 1          | 10         | 100        | 1000        |
+|-------------|------------|------------|-----------|-----------|
+| [Contrastive](https://arxiv.org/pdf/1511.06452.pdf)  | 42.0   | 58.2     | 73.8   | 89.1   |
+| [Triplet](https://arxiv.org/pdf/1511.06452.pdf)  | 42.1   | 63.5     | 82.5   | 94.8   | 
+| [LiftedStruct](https://arxiv.org/pdf/1511.06452.pdf)  | 62.1   | 79.8     | 91.3   | 97.4   | 
+| [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356)         | 69.5     | 84.4     | 92.8   |  97.7   |
+| [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 74.8     | 88.3     | 94.8   | 98.4   |
+| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf) | 74.2     | 86.9     | 94.0   | 97.8   | 
+| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | **76.3** | **88.4** | 94.8   | 98.2   | 
+|-------------|------------|------------|-----------|-----------|
+| Our Baseline        | 71.2 | 85.6 | 93.5   | 97.7   | 
+| ABIR w/o SE-block        | 74.3 | 87.4 | 94.6   | 98.3   | 
+| ABIR with SE-block         | 74.8 | 87.7 | **95.0**   | **98.5**   | 
+
 The following table shows the results on the Cars-196 dataset. Best results are marked in bold.
 
+|R@           | 1          | 2         | 4        | 8        | 16        | 32        |
+|-------------|------------|------------|-----------|-----------|-----------|-----------|
+| [margin](https://arxiv.org/pdf/1706.07567.pdf)  | 86.9   | 92.7     | 95.6   | **97.6**   | **98.7**    | -   |
+| [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356)         | 83.8     | 89.8     | 93.6   | 96.2   | 97.8    | 98.9   |
+| [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 81.4     | 88.0     | 92.7   | 95.7   | 97.4    | **99.0**      |
+| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf) | 82.0     | 89.0     | 93.2   | 96.1   | -      | -      |
+| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | 85.2 | 90.5 | 94.0   | 96.1   | -      | -  |
+|-------------|------------|------------|-----------|-----------|-----------|-----------|
+| Our Baseline        | 82.6 | 88.1 | 92.4   | 95.3   | 97.4   | 98.4  |
+| ABIR w/o SE-block        | 89.1 | 93.1 | 95.4   | 97.2   | 98.3      | 99.1  |
+| ABIR with SE-block         | **89.4** | **93.3** | **95.6**   | 97.1   | 98.2      | **99.0**  |

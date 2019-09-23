@@ -1,7 +1,7 @@
 donnot finish
 ## Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks
 
-This repository is the code for [*Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks*](http://delivery.acm.org/10.1145/3330000/3325017/p48-nie.pdf?ip=202.120.235.148&id=3325017&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E88014DC677A1F2C3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1568898900_445f14daa72cc4ac91920063cece9a18) in ICMR 2019.
+This repository is the code for [*Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks*](http://delivery.acm.org/10.1145/3330000/3325017/p48-nie.pdf?ip=202.120.235.148&id=3325017&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E88014DC677A1F2C3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1569220109_4d00dffbd4d9fffc5306e5d1173efed8) in ICMR 2019.
 
 ![network](https://github.com/SHIsue/ABIR/blob/master/images/network.png)
 

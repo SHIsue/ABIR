@@ -18,7 +18,7 @@ pip install tensorboardX
 __1\. Prepare the Dataset__
 
 Our work utilized four datasets: [In-shop Clothes Retrieval](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html), [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [Stanford Online Products](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) and [Cars-196](http://ai.stanford.edu/~jkrause/cars/car_dataset.html). 
-In this repo, we just focus on [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset.
+In this repo, we just focus on [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset. You can use "get_cub_train_file.py" to generate "train.txt" and "test.txt" OR download "train.txt" and "test.txt" directly.
 
 
 

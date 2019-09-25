@@ -1,6 +1,10 @@
 donnot finish
 ## Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks
 
+Xinyao Nie, Hong Lu, Zijian Wang, Jingyuan Liu, Zehua Guo
+
+Fudan University
+
 This repository is the code for [*Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks*](http://delivery.acm.org/10.1145/3330000/3325017/p48-nie.pdf?ip=202.120.235.148&id=3325017&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E88014DC677A1F2C3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1569220109_4d00dffbd4d9fffc5306e5d1173efed8) in ICMR 2019. If you cannot open the link, you can just download the paper which is uploaded in pdf format.
 
 ![network](https://github.com/SHIsue/ABIR/blob/master/images/network.png)
@@ -60,13 +64,13 @@ The following table shows the results on the In-Shop Clothes Retrieval dataset. 
 | [FashionNet+Poselets](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)         | 42.0     | 65.0     | 70.0   | 72.0   | 75.0      |
 | [FashionNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)        | 53.0     | 73.0     | 76.0   | 77.0   | 79.0      | 80.0      |
 | [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356) | 62.1     | 84.9     | 89.0   | 91.2   | 92.3      | 93.1      |
-| [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 80.9 | 94.3 | 95.8   | 97.2   | 97.4      | 97.8  | 
-| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf)        | 83.1 | 95.1 | 96.9   | 97.5   | 97.8      | 98.0  | 
-| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | 87.3 | 96.7 | 97.9   | 98.2   | 98.5      | 98.7  | 
+| [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 80.9 | 94.3 | 95.8   | 97.2   | 97.4      | 97.8  |
+| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf)        | 83.1 | 95.1 | 96.9   | 97.5   | 97.8      | 98.0  |
+| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | 87.3 | 96.7 | 97.9   | 98.2   | 98.5      | 98.7  |
 |-------------|------------|------------|-----------|-----------|-----------|-----------|
-| Our Baseline        | 85.4 | 96.1 | 97.3   | 97.8   | 98.1      | 98.3  | 
-| ABIR w/o SE-block        | 88.1 | 96.9 | 97.6   | 98.1   | 98.3      | 98.5  | 
-| ABIR with SE-block        | **89.0** | **97.1** | **98.0**   | **98.4**   | **98.6**      | **98.8**  | 
+| Our Baseline        | 85.4 | 96.1 | 97.3   | 97.8   | 98.1      | 98.3  |
+| ABIR w/o SE-block        | 88.1 | 96.9 | 97.6   | 98.1   | 98.3      | 98.5  |
+| ABIR with SE-block        | **89.0** | **97.1** | **98.0**   | **98.4**   | **98.6**      | **98.8**  |
 
 The following table shows the results on the CUB-200-2011 dataset. Best results are marked in bold.
 
@@ -87,16 +91,16 @@ The following table shows the results on the Stanford Online Products dataset. B
 |R@           | 1          | 10         | 100        | 1000        |
 |-------------|------------|------------|-----------|-----------|
 | [Contrastive](https://arxiv.org/pdf/1511.06452.pdf)  | 42.0   | 58.2     | 73.8   | 89.1   |
-| [Triplet](https://arxiv.org/pdf/1511.06452.pdf)  | 42.1   | 63.5     | 82.5   | 94.8   | 
-| [LiftedStruct](https://arxiv.org/pdf/1511.06452.pdf)  | 62.1   | 79.8     | 91.3   | 97.4   | 
+| [Triplet](https://arxiv.org/pdf/1511.06452.pdf)  | 42.1   | 63.5     | 82.5   | 94.8   |
+| [LiftedStruct](https://arxiv.org/pdf/1511.06452.pdf)  | 62.1   | 79.8     | 91.3   | 97.4   |
 | [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356)         | 69.5     | 84.4     | 92.8   |  97.7   |
 | [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 74.8     | 88.3     | 94.8   | 98.4   |
-| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf) | 74.2     | 86.9     | 94.0   | 97.8   | 
-| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | **76.3** | **88.4** | 94.8   | 98.2   | 
+| [A-BIER](https://arxiv.org/pdf/1810.06951.pdf) | 74.2     | 86.9     | 94.0   | 97.8   |
+| [ABE-8](https://arxiv.org/pdf/1810.06951.pdf)        | **76.3** | **88.4** | 94.8   | 98.2   |
 |-------------|------------|------------|-----------|-----------|
-| Our Baseline        | 71.2 | 85.6 | 93.5   | 97.7   | 
-| ABIR w/o SE-block        | 74.3 | 87.4 | 94.6   | 98.3   | 
-| ABIR with SE-block         | 74.8 | 87.7 | **95.0**   | **98.5**   | 
+| Our Baseline        | 71.2 | 85.6 | 93.5   | 97.7   |
+| ABIR w/o SE-block        | 74.3 | 87.4 | 94.6   | 98.3   |
+| ABIR with SE-block         | 74.8 | 87.7 | **95.0**   | **98.5**   |
 
 The following table shows the results on the Cars-196 dataset. Best results are marked in bold.
 
@@ -111,3 +115,19 @@ The following table shows the results on the Cars-196 dataset. Best results are 
 | Our Baseline        | 82.6 | 88.1 | 92.4   | 95.3   | 97.4   | 98.4  |
 | ABIR w/o SE-block        | 89.1 | 93.1 | 95.4   | 97.2   | 98.3      | 99.1  |
 | ABIR with SE-block         | **89.4** | **93.3** | **95.6**   | 97.1   | 98.2      | **99.0**  |
+
+### Citation
+
+If this code helps your research, please cite our paper:
+
+```shell
+@inproceedings{nie2019weakly,
+  title={Weakly Supervised Image Retrieval via Coarse-scale Feature Fusion and Multi-level Attention Blocks},
+  author={Nie, Xinyao and Lu, Hong and Wang, Zijian and Liu, Jingyuan and Guo, Zehua},
+  booktitle={Proceedings of the 2019 on International Conference on Multimedia Retrieval},
+  pages={48--52},
+  year={2019},
+  organization={ACM}
+}
+```
+

@@ -28,12 +28,15 @@ __2\. Repo Structure__
 
 ```text
   ABIR
-  |———— data/                                 # store CUB-200-2011 dataset
+      |———— data/                                 # store CUB-200-2011 dataset
           |———— cub/
                   |———— images/
+                  |———— images.txt                # you can use image.txt, image_class_labels.txt and train_test_split.txt to 
+                  |———— image_class_labels.txt    # generate train.txt and test.txt
+                  |———— train_test_split.txt
                   |———— train.txt
                   |———— test.txt
-  |———— code/                               
+      |———— code/                               
           |———— models/              
                   |———— VGG16_V5.py
           |———— __init__.py
@@ -61,7 +64,7 @@ The following table shows the results on the In-Shop Clothes Retrieval dataset. 
 |R@           | 1          | 10         | 20        | 30        | 40        | 50        |
 |-------------|------------|------------|-----------|-----------|-----------|-----------|
 | [FashionNet+Joints](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)  | 41.0     | 64.0     | 68.0   | 71.0   | 73.0      | 73.5      |
-| [FashionNet+Poselets](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)         | 42.0     | 65.0     | 70.0   | 72.0   | 75.0      |
+| [FashionNet+Poselets](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)         | 42.0     | 65.0     | 70.0   | | 72.0     |72.0     | 75.0      |
 | [FashionNet](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780493)        | 53.0     | 73.0     | 76.0   | 77.0   | 79.0      | 80.0      |
 | [HDC](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237356) | 62.1     | 84.9     | 89.0   | 91.2   | 92.3      | 93.1      |
 | [HTL](https://arxiv.org/pdf/1810.06951.pdf)        | 80.9 | 94.3 | 95.8   | 97.2   | 97.4      | 97.8  |

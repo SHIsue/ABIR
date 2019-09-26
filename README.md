@@ -31,9 +31,9 @@ __2\. Repo Structure__
       |———— data/                                 # store CUB-200-2011 dataset
           |———— cub/
                   |———— images/
-                  |———— images.txt                # you can use image.txt, image_class_labels.txt and train_test_split.txt to 
-                  |———— image_class_labels.txt    # generate train.txt and test.txt
-                  |———— train_test_split.txt
+                  |———— images.txt                # you can use image.txt, image_class_labels.txt 
+                  |———— image_class_labels.txt    # and train_test_split.txt to 
+                  |———— train_test_split.txt      # generate train.txt and test.txt
                   |———— train.txt
                   |———— test.txt
       |———— code/                               
